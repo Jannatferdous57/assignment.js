@@ -1,4 +1,4 @@
-
+// Github link: https://github.com/Jannatferdous57/assignment.js
 
 //kilometerToMeter
 function kilometerToMeter(kilometer) {
@@ -16,7 +16,7 @@ function budgetCalculator(Laptop, Mobile, Watch) {
     var Totalcost = Laptop * 500 + Mobile * 100 + Watch * 50;
     return Totalcost;
 }
-var result = budgetCalculator(1, 2, 1)
+var result = budgetCalculator(1, 2, 1);
 console.log(result);
 
 
@@ -55,12 +55,12 @@ function megaFriend(arr) {
     for (let i = 0; i < arr.length; i++) {
         const element = arr[i];
         if (mega.length < element.length) {
-            mega = element
+            mega = element;
         }
     }
     return mega;
 }
 
-var friend = ["Sara", "Sohana", "Jannat", "Ferdousi", "Jaber", "Humayraabedin", "Khushbu", "Nabila"]
-var result = megaFriend(friend)
-console.log(result)
+var friend = ["Sara", "Sohana", "Jannat", "Ferdousi", "Jaber", "Humayraabedin", "Khushbu", "Nabila"];
+var result = megaFriend(friend);
+console.log(result);
